@@ -5,17 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main_page</title>
-    <link rel="stylesheet" href="">
-
-    <script src="https://kit.fontawesome.com/fde9563318.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="img">LOGO</div>
-        <a href="#">미정(main_page_name)</a>
+<!--header-->
+<header>
+    <a href="index.html">Web_Site_Name</a>
         <ul>
-           <li><a href="#">option</a></li>  
-           <li><a href="#">my page</a></li>
+            <li><a href="#">mode</a></li>
+            <li><a href="#"><span>Select Date</span><input type="date"></a></li>
+            <li><a href="#">프로필</a></li>
         </ul>
+</header>
+<!--/header-->
+
+<div class="container">
+    <nav>
+        <div class="keyword">
+            <a href="#" class="item">#display:flex</a>
+            <a href="#" class="item">#linline-flex</a>
+            <a href="#" class="item">#flex-direction</a>
+            <a href="#" class="item">#flex-wrap</a>
+            <a href="#" class="item">#justify-content</a>
+            <a href="#" class="item">#align-items</a>
+            <a href="#" class="item">#align-content</a>
+            <a href="#" class="item">#order</a>
+            <a href="#" class="item">#flex-grow</a>
+        </div>
+    </nav>
+
+<!--section-->
+<section>
+    <div class="calendar">
+        <div class="header">
+        <div class="year-month"></div>
+            <div class="nav">
+                <button class="nav-btn go-prev">&lt;</button>
+                <button class="nav-btn go-today">Today</button>
+                <button class="nav-btn go-next">&gt;</button>
+            </div>
+        </div>
+        <div class="main">
+        <div class="days">
+            <div class="day">일</div>
+            <div class="day">월</div>
+             <div class="day">화</div>
+            <div class="day">수</div>
+            <div class="day">목</div>
+            <div class="day">금</div>
+            <div class="day">토</div>
+        </div>
+        <div class="dates"></div>
+        </div>
+
+        <script src="index.js"></script>
+    </section>
+    <!--/section-->
+    <!--aside-->
+    <aside>
+        <article>
+            <h1>공지</h1>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                     It has roots in a piece of classical Latin literature from 45 BC, 
+                     making it over 2000 years old. 
+                     Contrary to popular belief, Lorem Ipsum is not simply random text.
+                     It has roots in a piece of classical Latin literature from 45 BC, 
+                     making it over 2000 years old. 
+                </p>
+        </article>
+    </aside>
+    <!--/aside-->
+</div>
 </body>
 </html>

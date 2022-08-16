@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 0; margin: 0;
+   box-sizing: border-box;
+}
+
+a{text-decoration: none; color: inherit;}
+li{list-style:none;}
+body{background-color: khaki;}
+/* 헤더 설정 */
+header{
+   height: 10vh;
+   width: 100%;
+   position: absolute;
+   line-height: 10vh;
+   text-align: right;
+   border-bottom: 1px solid #000;
+}
+
+/* 헤더 제목 */
+header>a{
+   position: absolute;
+   left: 3%;
+   font-weight: 900;
+   font-size: 28px;
+}
+ /* 헤더 */
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+/* 헤더 ul */
+header ul{
+   display: inline-block;
+}
+/* 헤더 li */
+header ul li{
+   float: left;
+   padding: 10px 3vw;
+   vertical-align: baseline;
+}
+/*  */
+.container{
+   display: flex;  
+}
+/* calendar1 */
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   padding-top: 5vh;
+}
+/* calendar2 */
+.nav-btn:hover{
+   background-color:rgba(0, 0, 0, 0.5);
+}
+.date:hover{
+   background-color:rgba(0, 0, 0, 0.5);
+}
+/* calendar3 */
+.calendar {
+   width: 700px;
+   margin: 50px;
+ }
+ /* nav 설정 */
+ .year-month {
+   font-size: 35px;
+ }
+ .nav {
+   display: flex;
+   border: 1px solid #333333;
+   border-radius: 5px;
+ }
+ .nav-btn {
+   width: 28px;
+   height: 30px;
+   border: none;
+   font-size: 16px;
+   line-height: 34px;
+   background-color: transparent;
+   cursor: pointer;
+ }
+ .go-today {
+   width: 75px;
+   border-left: 1px solid #333333;
+   border-right: 1px solid #333333;
+ }
+ /* 요일 클래스 지정 */
+ .days {
+   display: flex;
+   margin: 25px 0 10px;
+ }
+/* 요일 설정 */
+ .day {
+   width: calc(100% / 7);
+   text-align: center;
+ }
+ /* 날짜 설정 */
+ .dates {
+   display: flex;
+   flex-flow: row wrap;
+   height: 500px;
+   border-top: 1px solid #333333;
+   border-right: 1px solid #333333;
+ }
+ 
+ .date {
+   width: calc(100% / 7);
+   padding: 15px;
+   text-align: right;
+   border-bottom: 1px solid #333333;
+   border-left: 1px solid #333333;
+ }
+ .day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+  color: #D13E3E;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+  color: #396EE2;
+}
+/* 공지 */
+aside{
+   flex: 1 1 25%;
+   height: 80vh;
+   padding: 30px;
+   box-sizing: border-box;
+   padding-top: 100px;
+}
+aside h1{
+   margin-bottom: 20px;
+}
