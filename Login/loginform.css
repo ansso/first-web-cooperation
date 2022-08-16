@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 #login_form input {
@@ -39,12 +39,13 @@ body {
     font-size: 13px;
 }
 
-#login_form input:not([type="submit"]){
+#login_form input:not([type="submit"]) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
 
-#login-form input[type="submit"] {
-    background-color: khaki;
-    padding: 20px 0px;
+#login_form input[type="submit"] {
+    background-color: rgb(233, 185, 185);
+    padding: 10px 10px;
+    margin-bottom: 5px;
 }
