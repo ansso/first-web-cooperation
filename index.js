@@ -35,3 +35,4 @@ dates.forEach((date, i) => {
 })
 
 document.querySelector('.dates').innerHTML = dates.join('');
+
