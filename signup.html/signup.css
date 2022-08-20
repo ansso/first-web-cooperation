@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    font-family: Source Sans Pro;  /*글씨체 둥글둥글한걸로 바꾸기 */
+    font-weight: 300;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: khaki;
+}
+
+.joinForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.joinForm input:not([type="submit"]) {
+   
+}
+
+.name input{
+    width: 250px;
+}
+
+.studentId input {
+    width: 250px;
+}
+
+.studentIdCheck input {
+    width: 250px;
+}
+
+.joinForm input[type="submit"] {
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: rgb(233, 185, 185);
+}
