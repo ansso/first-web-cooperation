@@ -41,13 +41,8 @@ header {
     height: 550px;
 }
 
-#my-profile-name, #my-profile-major, #my-profile-number {
-    font-size: 20px;
+.my-profile-category {
     display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgb(233, 185, 185);
-    width: 80px;
-    
-
+    flex-direction: column;
+    align-items: center;
 }

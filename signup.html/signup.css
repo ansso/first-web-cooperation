@@ -28,9 +28,6 @@ div {
     padding-bottom: 10px;
 }
 
-.joinForm input:not([type="submit"]) {
-   
-}
 
 .name input{
     width: 250px;
